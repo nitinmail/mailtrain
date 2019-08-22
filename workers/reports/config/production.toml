@@ -1,0 +1,11 @@
+[log]
+level="error"
+
+[mysql]
+host="localhost"
+user="nitinmail_ro"
+password="nitinROway2"
+database="mailtrain"
+port=3306
+charset="utf8"
+timezone="local"
