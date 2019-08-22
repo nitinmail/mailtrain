@@ -60,7 +60,7 @@ level="verbose"
 # HTTP port to listen on
 port=3000
 # HTTP interface to listen on
-host="0.0.0.0"
+host="127.0.0.1"
 # Enable HTTPS
 https=false
 # HTTPS certificate file name
@@ -72,7 +72,7 @@ key="key.pem"
 # HTTPS Diffie Hellman parameters (generate with openssl dhparam)
 #dhparams="dhparams.pem"
 # Secret for signing the session ID cookie
-secret="a cat"
+secret="faod3iehujisee7pheeFiesourohy0ahng0eev1hiekait2coh3goe4soht1Eech"
 # Session length in seconds when "remember me" is checked
 remember=2592000 # 30 days
 # logger interface for expressjs morgan
@@ -88,8 +88,8 @@ postsize="2MB"
 
 [mysql]
 host="localhost"
-user="mailtrain"
-password="mailtrain"
+user="nitinmail"
+password="nitinway2"
 database="mailtrain"
 # Some installations, eg. MAMP can use a different port (8889)
 # MAMP users should also turn on "Allow network access to MySQL" otherwise MySQL might not be accessible
@@ -113,7 +113,7 @@ db=5
 # Requires root privileges
 enabled=false
 port=2525
-host="0.0.0.0"
+host="127.0.0.1"
 # With DMARC, the Return-Path and From address must match the same domain.
 # By default we get around this by using the VERP address in the Sender header,
 # with the side effect that some email clients diplay an ugly "on behalf of" message.
@@ -171,7 +171,7 @@ processes=1
 
 [cors]
 # Allow subscription widgets to be embedded
-# origins=['https://www.example.com']
+# origins=['https://www.mailtrain.org']
 
 [mosaico]
 # Installed templates
@@ -208,9 +208,9 @@ enabled=false
 port=5587
 mailboxserverport=3001
 host="0.0.0.0"
-username="testuser"
-password="testpass"
-logger=false
+username="nitinmail"
+password="nitinway2"
+logger=true
 
 [seleniumwebdriver]
 browser="phantomjs"
